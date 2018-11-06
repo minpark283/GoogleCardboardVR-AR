@@ -23,8 +23,9 @@
 							<button class="btn btn-default dropdown-toggle red" type="button" id="dropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects <span class="caret"></span></button>
 							<div class="dropdown-menu" aria-labelledby="dropdownMenu">
 								<router-link class="dropdown-item" to="/vr-map">RPI VR Map</router-link>
-								<a class="dropdown-item" href="localhost:3000/src/webvr/RPIFreeTrip/">RPI VR Free Trip</a>
+								<a class="dropdown-item" href="/src/webvr/RPIVRFreeTrip/index.html">RPI VR Free Trip</a>
 								<a class="dropdown-item" href="https://www.youtube.com/watch?v=OsOcbkqYh8s">Path to EMPAC</a>
+								<a class="dropdown-item" href="/src/webvr/RPIVRVideo/rpivideo.html"> VR Video</a>
 							</div>				
 						</div>
 					</li>
