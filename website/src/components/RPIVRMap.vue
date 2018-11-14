@@ -69,6 +69,7 @@
 		},
 		methods: {
 			calculateAndDisplayRoute : function(directionsService, directionsDisplay, locations, findPath) {
+				//Setting up inital variables for coordinates
 				var originEl = document.getElementById('start');
 				var originLat = originEl.options[originEl.selectedIndex].getAttribute('lat');
 				var originLng = originEl.options[originEl.selectedIndex].getAttribute('lng');

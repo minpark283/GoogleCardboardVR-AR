@@ -30,6 +30,7 @@ const routes = [
 		name: 'VR-Map',
 		component: VRMap
 	},
+
 	// {
 	// 	path: '/vr-path',
 	// 	name: 'VR-Path',
