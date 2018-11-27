@@ -24,7 +24,7 @@
 							<div class="dropdown-menu" aria-labelledby="dropdownMenu">
 								<router-link class="dropdown-item" to="/vr-map">RPI VR Map</router-link>
 								<a class="dropdown-item" href="/src/webvr/RPIVRFreeTrip/index.html">RPI VR Free Trip</a>
-								<a class="dropdown-item" href="/src/webvr/RPIIndex/index.html">RPI Index </a>
+								<a class="dropdown-item" href="/src/webvr/RPIVirtualWorld/index.html">RPI Index </a>
 								<a class="dropdown-item" href="/src/webvr/RPIVRVideo/rpivideo.html"> VR Video</a>
 							</div>				
 						</div>

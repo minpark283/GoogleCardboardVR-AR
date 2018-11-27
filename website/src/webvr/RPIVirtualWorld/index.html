@@ -1,0 +1,16 @@
+<html>
+  <head>
+      <!-- Basic Script -->
+      <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
+      <!-- Environment Script -->
+      <script src="https://unpkg.com/aframe-environment-component/dist/aframe-environment-component.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+        
+            <a-box color="red" position="0 2 -5" rotation="0 45 45" scale="2 2 2"></a-box>
+            <!-- Out of the box environment! -->
+            <a-entity environment="preset: forest; dressingAmount: 500"></a-entity>
+    </a-scene>
+  </body>
+</html>
