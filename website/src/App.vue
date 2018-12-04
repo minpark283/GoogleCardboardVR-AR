@@ -25,6 +25,7 @@
 								<router-link class="dropdown-item" to="/vr-map">RPI VR Map</router-link>
 								<a class="dropdown-item" href="/src/webvr/RPIVRFreeTrip/index.html">RPI VR Free Trip</a>
 								<a class="dropdown-item" href="/src/webvr/RPIVirtualWorld/index.html">RPI Index </a>
+								<router-link class="nav-link" to="/vrmenu">VR Menu</router-link>
 								<a class="dropdown-item" href="/src/webvr/RPIVRVideo/rpivideo.html"> VR Video</a>
 							</div>				
 						</div>

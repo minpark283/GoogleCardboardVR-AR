@@ -7,6 +7,8 @@ import Contact from './components/Contact.vue';
 
 import VRMap from './components/RPIVRMap.vue';
 
+import VRMenu from './components/VRMenu.vue';
+
 Vue.use(VueRouter);
 
 const routes = [
@@ -29,6 +31,12 @@ const routes = [
 		path: '/vr-map',
 		name: 'VR-Map',
 		component: VRMap
+	},
+
+	{
+		path: '/vrmenu',
+		name: 'VRMenu',
+		component: VRMenu
 	},
 
 	// {
