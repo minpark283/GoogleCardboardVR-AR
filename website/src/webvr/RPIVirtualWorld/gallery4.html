@@ -1,0 +1,74 @@
+<html>
+  <head>
+      <!-- Basic Script -->
+      <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
+      <!-- Environment Script -->
+      <script src="https://unpkg.com/aframe-environment-component/dist/aframe-environment-component.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+        
+            <a-box color="red" position="0 2 -5" rotation="0 0 0" scale="2 2 2"></a-box>
+            <!-- Out of the box environment! -->
+            <a-entity environment="preset: default; dressingAmount: 500"></a-entity>
+
+      <!--Image for each Gallery Portal-->
+
+      <!--2018_04_02-->
+      <a-assets>
+        <img id="gallery4_1" src="https://cardboard.cs.rpi.edu/2018_04_02/1.jpg">
+      </a-assets>
+    
+      <a-assets>
+        <img id="gallery4_2" src="https://cardboard.cs.rpi.edu/2018_04_02/2.jpg">
+      </a-assets>
+
+      <a-assets>
+        <img id="gallery4_3" src="https://cardboard.cs.rpi.edu/2018_04_02/3.jpg">
+      </a-assets>
+    
+      <a-assets>
+        <img id="gallery4_4" src="https://cardboard.cs.rpi.edu/2018_04_02/4.jpg">
+      </a-assets>
+    
+      <a-assets>
+        <img id="gallery4_5" src="https://cardboard.cs.rpi.edu/2018_04_02/5.jpg">
+      </a-assets>
+    
+      <a-assets>
+        <img id="gallery4_6" src="https://cardboard.cs.rpi.edu/2018_04_02/6.jpg">
+      </a-assets>
+    
+      <a-assets>
+        <img id="gallery4_7" src="https://cardboard.cs.rpi.edu/2018_04_02/7.jpg">
+      </a-assets>
+    
+      <a-assets>
+        <img id="gallery4_8" src="https://cardboard.cs.rpi.edu/2018_04_02/8.jpg">
+      </a-assets>
+    
+
+      <!--Displaying each image to gallery -->
+
+      <!--Gallery 4-->
+
+      <a-entity link="href: /RPIVirtualWorld/gallery3.html; title: 2018_04_02; image: #gallery4_1" position= "5 2 -5"></a-entity>
+
+      <a-entity link="href: /RPIVirtualWorld/gallery4.html; title: 2018_04_02; image: #gallery4_2" position= "10 2 -5"></a-entity>
+
+      <a-entity link="href: /RPIVirtualWorld/gallery1.html; title: 2018_04_02; image: #gallery4_3" position= "15 2 -5"></a-entity>
+
+      <a-entity link="href: /RPIVirtualWorld/gallery2.html; title: 2018_04_02; image: #gallery4_4" position= "20 2 -5"></a-entity>
+
+      <a-entity link="href: /RPIVirtualWorld/gallery3.html; title: 2018_04_02; image: #gallery4_5" position= "5 2 -10"></a-entity>
+
+      <a-entity link="href: /RPIVirtualWorld/gallery1.html; title: 2018_04_02; image: #gallery4_6" position= "10 2 -10"></a-entity>
+
+      <a-entity link="href: /RPIVirtualWorld/gallery2.html; title: 2018_04_02; image: #gallery4_7" position= "15 2 -10"></a-entity>
+
+      <a-entity link="href: /RPIVirtualWorld/gallery3.html; title: 2018_04_02; image: #gallery4_8" position= "20 2 -10"></a-entity>
+
+
+    </a-scene>
+  </body>
+</html>

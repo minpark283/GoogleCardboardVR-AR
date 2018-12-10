@@ -17,6 +17,9 @@
 					<li class="nav-item">
 						<router-link class="nav-link" to="/contact">Contact</router-link>
 					</li>
+					<li class="nav-item">			
+						<router-link class="nav-link" to="/vrmenu">Path To EMPAC</router-link>
+					</li>
 					<li>
 						<!-- WebVR programs menu -->
 						<div class="dropdown show nav-item nav-link">
@@ -24,9 +27,7 @@
 							<div class="dropdown-menu" aria-labelledby="dropdownMenu">
 								<router-link class="dropdown-item" to="/vr-map">RPI VR Map</router-link>
 								<a class="dropdown-item" href="/src/webvr/RPIVRFreeTrip/index.html">RPI VR Free Trip</a>
-								<a class="dropdown-item" href="/src/webvr/RPIVirtualWorld/index.html">RPI Index </a>
-								<router-link class="nav-link" to="/vrmenu">VR Menu</router-link>
-								<a class="dropdown-item" href="/src/webvr/RPIVRVideo/rpivideo.html"> VR Video</a>
+								<a class="dropdown-item" href="/src/webvr/RPIVirtualWorld/index.html">RPI Virtual Gallery </a>
 							</div>				
 						</div>
 					</li>
